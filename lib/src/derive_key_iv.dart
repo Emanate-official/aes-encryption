@@ -16,7 +16,7 @@ Tuple2<Uint8List, Uint8List> deriveKeyAndIV(String passphrase, Uint8List salt) {
       preHash = Uint8List.fromList(
           password + salt);
 
-    var hash = md5.convert(preHash).bytes;  
+    var hash = crypto.md5.convert(preHash).bytes;  
     
     currentHash = hash as Uint8List;
     

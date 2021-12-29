@@ -1,6 +1,6 @@
 name: aes_encryption
-description: A new Flutter package project.
-version: 1.0.0
+description: Provided end to end AES Encryption to be converted on JavaScript backend.
+version: 1.0.1
 homepage: https://github.com/Flutter-Postal-Service/aes-encryption
 
 environment:
@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   encrypt: ^5.0.1
   tuple: ^2.0.0
+  crypto: ^3.0.1
 
 dev_dependencies:
   flutter_test:
